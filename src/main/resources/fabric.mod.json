@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "particlex",
+  "version": "${version}",
+
+  "name": "ParticleX",
+  "description": "A simple critical & enchantment particle multiplier for the Fabric Mod Loader, similarly to the Particle Multiplier option from Lunar Client.",
+  "authors": [
+    "Spxctre"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/particleX/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.spxctreofficial.particleX.ParticleX"
+    ]
+  },
+  "mixins": [
+    "particleX.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
