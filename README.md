@@ -1,6 +1,6 @@
 # ParticleX
 
-A simple critical & enchantment particle multiplier for the Fabric Mod Loader, similarly to the Particle Multiplier option from Lunar Client.
+A simple critical & enchantment particle multiplier for the Fabric Mod Loader, similar to the Particle Multiplier mod in Lunar Client.
 
 ## Downloads
 
