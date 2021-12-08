@@ -5,4 +5,5 @@ A simple critical & enchantment particle multiplier for the Fabric Mod Loader, s
 ## Downloads
 
 Modrinth (Recommended): https://modrinth.com/mod/particlex
+
 CurseForge: https://www.curseforge.com/minecraft/mc-mods/particlex
