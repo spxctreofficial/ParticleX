@@ -4,11 +4,13 @@
   "package": "com.spxctreofficial.particleX.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+	"LivingEntityMixin",
+	"WorldRendererMixin"
   ],
   "client": [
-    "EmitterParticleMixin"
+	"EmitterParticleMixin"
   ],
   "injectors": {
-    "defaultRequire": 1
+	"defaultRequire": 1
   }
 }
