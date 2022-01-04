@@ -4,6 +4,7 @@
   "package": "com.spxctreofficial.particleX.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+	"BlockMixin"
   ],
   "client": [
 	"EmitterParticleMixin"
