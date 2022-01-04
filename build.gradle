@@ -7,7 +7,7 @@ sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
 archivesBaseName = project.archives_base_name
-version = project.mod_version
+version = "${project.mod_version}${getVersionMetadata()}"
 group = project.maven_group
 
 repositories {
@@ -68,4 +68,14 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
+}
+
+static String getVersionMetadata() {
+	def build_id = System.getenv("GITHUB_RUN_NUMBER")
+
+	if (build_id != null) {
+		return "+build.${build_id}"
+	}
+
+	return ""
 }
