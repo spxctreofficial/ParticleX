@@ -4,9 +4,9 @@
   "package": "com.spxctreofficial.particleX.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+	"WorldRendererMixin"
   ],
   "client": [
-	"BlockMixin",
 	"EmitterParticleMixin"
   ],
   "injectors": {
